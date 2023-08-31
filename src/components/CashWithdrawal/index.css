@@ -1,0 +1,115 @@
+/* Write your CSS here */
+
+.main-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: white;
+  background-size: cover;
+  min-height: 100vh;
+  font-family: 'Roboto';
+}
+
+.card-container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  background-color: #150b3e;
+  width: 88%;
+  border-radius: 15px;
+  padding: 20px;
+  margin-top: 20px;
+}
+
+@media screen and (min-width: 768px) {
+  .card-container {
+    width: 40%;
+  }
+}
+
+.name-card {
+  display: flex;
+  width: 95%;
+}
+
+.name-logo-circle {
+  background-color: #c7d2fe;
+  width: 66px;
+  height: 66px;
+  border-radius: 50%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-right: 12px;
+}
+
+.name-para {
+  color: #7c3aed;
+  font-weight: 500;
+  font-size: 20px;
+}
+
+.name-heading {
+  color: #d4d2db;
+  font-size: 24px;
+  font-weight: 500;
+  margin-top: auto;
+  margin-bottom: auto;
+}
+
+.balance-card {
+  display: flex;
+  width: 95%;
+  padding: 1px;
+  margin-top: 1px;
+  justify-content: space-between;
+}
+
+.your-balance {
+  color: #585076;
+  font-weight: 500;
+  font-size: 24px;
+  margin-top: auto;
+  margin-bottom: auto;
+}
+
+.amount {
+  color: #d4d2db;
+  font-size: 30px;
+  font-weight: 500;
+}
+
+.in-rupees {
+  color: #585076;
+  padding-top: 1px;
+  margin: 0;
+  padding: 0;
+}
+
+.withdraw-container {
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+  align-items: flex-start;
+  width: 95%;
+}
+
+.withdraw {
+  color: #d4d2db;
+  font-size: 24px;
+  font-weight: 400;
+}
+
+.choose-sum {
+  color: #585076;
+  margin-top: 2px;
+  font-weight: 500;
+  font-size: 16px;
+}
+
+.ul-container {
+  display: flex;
+  flex-wrap: wrap;
+  width: 100%;
+  padding: 1px;
+}

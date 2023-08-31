@@ -1,0 +1,16 @@
+/* Write your CSS here */
+.li-container {
+  border: 1px solid #c4c4c4;
+  border-radius: 6px;
+  width: 100%;
+  background-color: #382f5a;
+  color: #d4d2db;
+  font-size: 22px;
+  font-weight: 500;
+  padding: 5px;
+}
+.edo {
+  width: 45%;
+  list-style-type: none;
+  margin: 8px;
+}
